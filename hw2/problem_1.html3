@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Problem 3. Calculator </title>
+<style>
+input{
+	
+	background-color:#CCC;
+	color:#3FF;
+	text-shadow:#666;
+	font-size:16px;
+	border;:thin #06C ;
+	height:40px;
+	width:40px;
+}
+
+
+</style>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="177" align="center">
+    <tr>
+      <td height="33" colspan="4" style="background-color:#0CF;"><label>
+        <input type="text" style="background-color:#CCC; width:100%; text-align:center; font-size:20px;" value="123" />
+      </label></td>
+    </tr>
+    <tr>
+      <td width="41"><label>
+        <input type="submit" name="button" id="button" value="1" />
+      </label></td>
+      <td width="40"><input type="submit" name="button2" id="button2" value="2" /></td>
+      <td width="40"><input type="submit" name="button3" id="button3" value="3" /></td>
+      <td width="40"><input type="submit" name="button4" id="button4" value="+" /></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="button5" id="button5" value="4" /></td>
+      <td><input type="submit" name="button6" id="button6" value="5" /></td>
+      <td><input type="submit" name="button7" id="button7" value="6" /></td>
+      <td><input type="submit" name="button8" id="button8" value="-" /></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="button9" id="button9" value="7" /></td>
+      <td><input type="submit" name="button10" id="button10" value="8" /></td>
+      <td><input type="submit" name="button11" id="button11" value="9" /></td>
+      <td><input type="submit" name="button12" id="button12" value="*" /></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" name="button13" id="button13" value="0" style="width:84px;" /></td>
+      <td><input type="submit" name="button14" id="button14" value="=" /></td>
+      <td><input type="submit" name="button15" id="button15" value="%" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
